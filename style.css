@@ -1,0 +1,52 @@
+html, body {
+   margin: 0;
+}
+
+div {
+   box-sizing: border-box;
+}
+
+.grid_old {
+   font-family: 'Px437 IBM CGAthin';
+   resize: none;
+   display:block;
+
+   background: white;
+   border: none;
+   padding: 0;
+   margin: 0;
+   line-height: 1em;
+   /* overflow:hidden; */
+   overflow: hidden;
+   word-break: break-all;
+}
+
+#grid {
+   background-color: coral;
+   font-family: 'Px437 IBM CGAthin';
+   display: flex;
+   flex-flow: wrap;
+   user-select: none; 
+   cursor: crosshair;
+}
+
+.char {
+   background:blue;
+   /* border: 1px solid black; */
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.char:hover {
+   color: green;
+}
+
+.first-selected-char {
+   color: red;
+}
+
+.selected-char {
+   color: white;
+}
